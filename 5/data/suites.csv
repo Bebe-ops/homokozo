@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 28 12:17:21 GMT 2022","Mon Mar 28 12:17:49 GMT 2022","27996","","test_kapcsolat","","","","test_tc01_fill_form",""

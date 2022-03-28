@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6ae862483666fcdc",
+  "name" : "test_tc01_fill_form",
+  "time" : {
+    "start" : 1648469841431,
+    "stop" : 1648469869427,
+    "duration" : 27996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
