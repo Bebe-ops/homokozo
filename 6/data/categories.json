@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"submit\" class=\"ff-btn ff-btn-submit ff-btn-md ff_btn_style\">...</button> is not clickable at point (144, 581). Other element would receive the click: <span id=\"cn-notice-buttons\" class=\"cn-buttons-container\">...</span>\n  (Session info: headless chrome=98.0.4758.102)\nStacktrace:\n#0 0x55ed97c24b33 <unknown>\n#1 0x55ed976ed6d8 <unknown>\n#2 0x55ed9772abfc <unknown>\n#3 0x55ed977287a6 <unknown>\n#4 0x55ed97725f00 <unknown>\n#5 0x55ed97724baa <unknown>\n#6 0x55ed977186d9 <unknown>\n#7 0x55ed97741062 <unknown>\n#8 0x55ed97717fa3 <unknown>\n#9 0x55ed9774116e <unknown>\n#10 0x55ed977542fb <unknown>\n#11 0x55ed97740f53 <unknown>\n#12 0x55ed97716a0a <unknown>\n#13 0x55ed97717ad5 <unknown>\n#14 0x55ed97c562fd <unknown>\n#15 0x55ed97c6f4bb <unknown>\n#16 0x55ed97c580d5 <unknown>\n#17 0x55ed97c70145 <unknown>\n#18 0x55ed97c4baaf <unknown>\n#19 0x55ed97c8cba8 <unknown>\n#20 0x55ed97c8cd28 <unknown>\n#21 0x55ed97ca748d <unknown>\n#22 0x7f4a5f6b3609 <unknown>",
+      "children" : [ {
+        "name" : "test_tc01_fill_form",
+        "uid" : "34f701443744b3c6",
+        "parentUid" : "e9920801349044539b989bda7cb38799",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648475086063,
+          "stop" : 1648475104557,
+          "duration" : 18494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9920801349044539b989bda7cb38799"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
