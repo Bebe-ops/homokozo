@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_kapcsolat",
+    "children" : [ {
+      "name" : "test_tc01_fill_form",
+      "uid" : "b3546932e97331d9",
+      "parentUid" : "3c99d1b61063f9e3e2721bb74759fae3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648475811283,
+        "stop" : 1648475842497,
+        "duration" : 31214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c99d1b61063f9e3e2721bb74759fae3"
+  } ],
+  "name" : "suites"
+}
