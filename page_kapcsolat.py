@@ -17,19 +17,20 @@ class ContactForm:
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         self.driver.get('https://sandbox.develop.y-collective.hu/kapcsolat/')
         self.driver.maximize_window()
-        self.input_fields_tag_name = 'input'
-        self.text_area_tag_name = 'textarea'
-        self.submit_tag_name = 'button'
+        self.locators = [{'first_name_id': 'ff_1_names_first_name_'}, {'last_name_id': 'ff_1_names_last_name_'},
+                    {'email_id': 'ff_1_email'}, {'subject_id': 'ff_1_subject'}, {'message_id': 'ff_1_message'}]
+        self.submit_xp = '//button[@type="submit"]'
 
-    def locators_tag_name(self, tag):
-        elements = self.driver.find_elements(By.TAG_NAME, tag)
-        return elements
-
-    def locator_by_name(self, tag):
-        element = self.driver.find_element(By.TAG_NAME, tag)
+    def locator_by_id(self, id_name):
+        element = self.driver.find_element(By.ID, id_name)
         return element
 
-    def fill_input_fields(self, my_list, field_list, btn):  # fill in form input fields
-        for _ in range(len(my_list)):
-            field_list[_].send_keys(my_list[_])
-        self.locator_by_name(btn).click()
+    def locator_by_xp(self, xp):
+        element = self.driver.find_element(By.XPATH, xp)
+        return element
+
+    def fill_input_field(self, my_id, test_data):
+        self.locator_by_id(my_id).send_keys(test_data)
+
+    def teardown(self):
+        self.driver.close()
