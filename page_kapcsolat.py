@@ -3,6 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 import time
 
 
@@ -35,7 +36,7 @@ class ContactForm:
         for _ in range(len(my_list)):
             self.locator_by_id(field_list[_]).send_keys(my_list[_])
         time.sleep(2)
-        self.locator_by_xp(btn).click()
+        self.locator_by_xp(btn).send_keys(Keys.ENTER)
 
     def teardown(self):
         self.driver.close()

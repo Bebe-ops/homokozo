@@ -1,5 +1,4 @@
 from random import randint
-from selenium.webdriver.common.keys import Keys
 import time
 from page_kapcsolat import ContactForm
 
