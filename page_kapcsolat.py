@@ -19,7 +19,8 @@ class ContactForm:
         self.driver.get('https://sandbox.develop.y-collective.hu/kapcsolat/')
         self.driver.maximize_window()
         self.field_id = ['ff_1_names_first_name_', 'ff_1_names_last_name_', 'ff_1_email', 'ff_1_subject',
-                         'ff_1_message', 'fluentform_1_success']
+                         'ff_1_message']
+        self.success_form_msg_id = 'fluentform_1_success'
         self.submit_xp = '//button[@type="submit"]'
 
     def locator_by_id(self, id_name):

@@ -15,4 +15,4 @@ def test_tc01_fill_form():
     form = ContactForm()
     form.fill_input_fields(user_data, form.field_id, form.submit_xp)
     time.sleep(2)
-    assert form.locator_by_id(form.field_id[5]).text == form.expected_msg
+    assert form.locator_by_id(form.success_form_msg_id).text == expected_msg
