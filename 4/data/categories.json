@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"textarea\"}\n  (Session info: headless chrome=98.0.4758.102)\nStacktrace:\n#0 0x55ebf2c6eb33 <unknown>\n#1 0x55ebf27376d8 <unknown>\n#2 0x55ebf276d6f1 <unknown>\n#3 0x55ebf276d8b1 <unknown>\n#4 0x55ebf27a0574 <unknown>\n#5 0x55ebf278b08d <unknown>\n#6 0x55ebf279e2fb <unknown>\n#7 0x55ebf278af53 <unknown>\n#8 0x55ebf2760a0a <unknown>\n#9 0x55ebf2761ad5 <unknown>\n#10 0x55ebf2ca02fd <unknown>\n#11 0x55ebf2cb94bb <unknown>\n#12 0x55ebf2ca20d5 <unknown>\n#13 0x55ebf2cba145 <unknown>\n#14 0x55ebf2c95aaf <unknown>\n#15 0x55ebf2cd6ba8 <unknown>\n#16 0x55ebf2cd6d28 <unknown>\n#17 0x55ebf2cf148d <unknown>\n#18 0x7f44689d6609 <unknown>",
+      "children" : [ {
+        "name" : "test_tc01_fill_form",
+        "uid" : "3c305f86522b7cf0",
+        "parentUid" : "7010dfa35fdd9ffad4f26b1d6f18da90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648461576205,
+          "stop" : 1648461600532,
+          "duration" : 24327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7010dfa35fdd9ffad4f26b1d6f18da90"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
